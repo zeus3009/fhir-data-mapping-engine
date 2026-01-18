@@ -1,0 +1,9 @@
+{
+  "provider_id": "PRV12345",
+  "first_name": "Rajath",
+  "last_name": "Narayan",
+  "gender": "male",
+  "date_of_birth": "1999-06-15",
+  "npi": "1234567890",
+  "specialty": "Internal Medicine"
+}

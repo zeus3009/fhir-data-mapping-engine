@@ -1,0 +1,25 @@
+{
+  "resourceType": "Practitioner",
+  "id": "{{ provider_id }}",
+  "identifier": [
+    {
+      "system": "http://hl7.org/fhir/sid/us-npi",
+      "value": "{{ npi }}"
+    }
+  ],
+  "name": [
+    {
+      "family": "{{ last_name }}",
+      "given": ["{{ first_name }}"]
+    }
+  ],
+  "gender": "{{ gender }}",
+  "birthDate": "{{ date_of_birth }}",
+  "qualification": [
+    {
+      "code": {
+        "text": "{{ specialty }}"
+      }
+    }
+  ]
+}
