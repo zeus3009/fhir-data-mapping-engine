@@ -1,0 +1,25 @@
+{
+  "resourceType": "Practitioner",
+  "id": "PRV12345",
+  "identifier": [
+    {
+      "system": "http://hl7.org/fhir/sid/us-npi",
+      "value": "1234567890"
+    }
+  ],
+  "name": [
+    {
+      "family": "Narayan",
+      "given": ["Rajath"]
+    }
+  ],
+  "gender": "male",
+  "birthDate": "1999-06-15",
+  "qualification": [
+    {
+      "code": {
+        "text": "Internal Medicine"
+      }
+    }
+  ]
+}
